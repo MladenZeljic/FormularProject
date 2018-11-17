@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.page{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabs > a{
+	display:inline-block;
+	padding: 10px;
+    background-color: #c3c0c0;
+    color: black;
+    text-decoration: none;
+}
+
+.tabs > a:hover{
+	background-color: #d4d2d2;
+	box-shadow: 0px 5px 0 #e2dddd, 3px -1px 4px 0px rgba(0,0,0,0.16);
+    -webkit-transition: all 700ms;
+    transition: all 700ms;
+}
+
+.tabs >.tab-selected{
+	background-color: #e2dddd;
+    box-shadow: 0px 5px 0 #e2dddd, 3px -1px 4px 0px rgba(0,0,0,0.16);
+}
+
+.tabs >.tab-selected:hover{
+	background-color: #e2dddd;
+}
+
+.tab-view-hide{
+	display: none;
+}
+
+.tab-view{
+	background-color: #e2dddd;
+	min-height: 100%;
+	padding: 15px 25px;
+	box-shadow: 2px -2px 4px 0px rgba(0,0,0,0.16);
+}
