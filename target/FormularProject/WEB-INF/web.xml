@@ -4,4 +4,24 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AdministrationController</servlet-name>
+  	<display-name>AdministrationController</display-name>
+  	<description></description>
+  	<servlet-class>com.project.controllers.AdministrationController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FormularController</servlet-name>
+  	<display-name>FormularController</display-name>
+  	<description></description>
+  	<servlet-class>com.project.controllers.FormularController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AdministrationController</servlet-name>
+  	<url-pattern>/index</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FormularController</servlet-name>
+  	<url-pattern>/formular</url-pattern>
+  </servlet-mapping>
 </web-app>

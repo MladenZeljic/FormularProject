@@ -2,6 +2,7 @@
 
 .page{
     font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 15px;
 }
 
 .tabs > a{
@@ -15,11 +16,13 @@
 .tabs > a:hover{
 	background-color: #d4d2d2;
 	box-shadow: 0px 5px 0 #e2dddd, 3px -1px 4px 0px rgba(0,0,0,0.16);
+	text-decoration: none;
     -webkit-transition: all 700ms;
     transition: all 700ms;
 }
 
 .tabs >.tab-selected{
+	font-weight: 600;
 	background-color: #e2dddd;
     box-shadow: 0px 5px 0 #e2dddd, 3px -1px 4px 0px rgba(0,0,0,0.16);
 }
@@ -28,13 +31,123 @@
 	background-color: #e2dddd;
 }
 
-.tab-view-hide{
-	display: none;
+.views{
+	min-height: 100%;
+}
+
+.tab-view-hide, .form-hidden,.radio-input-hidden,.radio-number-hide{
+	display: none !important;
+}
+
+.formular-element-hidden{
+	visibility: hidden;	
 }
 
 .tab-view{
 	background-color: #e2dddd;
-	min-height: 100%;
+	min-height: 90vh;
 	padding: 15px 25px;
 	box-shadow: 2px -2px 4px 0px rgba(0,0,0,0.16);
+}
+
+.formular-form{
+	display: flex;
+	flex-direction: column;
+	min-height: 80vh;
+}
+
+.formular-form-group{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.formular-element-group{
+	display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.formular-radio{
+	margin-top: 5px;
+}
+
+.formular-checkbox{
+	margin-top: 5px;
+}
+
+.formular-row-label-group,.formular-checkbox-group,.formular-input-group{
+	float:left;
+	padding-right: 15px;
+    padding-left: 15px;
+}
+
+.formular-element-label, .formular-name-label, .formular-version-label{
+	float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+.formular-select-label{
+	float:left;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 5px;
+}
+
+.formular-select-group{
+	display: flex;
+}
+
+.formular-version-group{
+	float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.formular-version-label{
+	padding-left:0px	
+}
+
+.formular-version-input-group{
+	width: 50px;	
+}
+
+.formular-element-label {
+	min-width:110px;
+}
+
+.radio-input-group{
+	clear: both;
+}
+
+.btn-add-element{
+	border-radius: 20px;
+    border: 2px solid white;
+    color: #fff;
+    background-color: #5bc0de;
+}
+
+.btn-save-formular, .btn-delete-formular{
+	float:right !important;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+
+.btn-group{
+	float: left;
+    margin-left: 15px;
+    margin-right: 15px;	
+}
+
+.clear {
+	clear: both;
+}
+
+.flex{
+	flex-grow:1;
+}
+
+.input-group > .form-control, .form-group > .form-control{
+	border-radius: 0px;
 }

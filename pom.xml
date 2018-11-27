@@ -21,19 +21,12 @@
 		<version>4.0.0</version>
 		<scope>provided</scope>
 	</dependency>
-	<!-- Dependency for tomcat 9 (May 2017) servlet API 
-	<dependency>
-    	<groupId>org.apache.tomcat</groupId>
-    	<artifactId>tomcat-servlet-api</artifactId>
-    	<version>9.0.0.M21</version>
-	</dependency>
-	-->
 	<!--  Dependency for HSQLDB -->
 	<dependency>
     	<groupId>org.hsqldb</groupId>
     	<artifactId>hsqldb</artifactId>
     	<version>2.4.1</version>
-    	<scope>test</scope>
+  		<scope>provided</scope>
 	</dependency>
   </dependencies>
   <build>

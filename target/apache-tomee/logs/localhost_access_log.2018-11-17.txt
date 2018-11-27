@@ -1,6 +1,0 @@
-0:0:0:0:0:0:0:1 - - [17/Nov/2018:09:39:58 +0100] "GET /FormularProject/index.jsp HTTP/1.1" 200 992
-0:0:0:0:0:0:0:1 - - [17/Nov/2018:09:40:04 +0100] "GET /FormularProject/styles/index-style.css HTTP/1.1" 200 766
-0:0:0:0:0:0:0:1 - - [17/Nov/2018:09:40:06 +0100] "GET /FormularProject/scripts/js/index-script.js HTTP/1.1" 304 -
-0:0:0:0:0:0:0:1 - - [17/Nov/2018:09:41:46 +0100] "GET /FormularProject/index.jsp HTTP/1.1" 200 992
-0:0:0:0:0:0:0:1 - - [17/Nov/2018:09:41:46 +0100] "GET /FormularProject/styles/index-style.css HTTP/1.1" 200 766
-0:0:0:0:0:0:0:1 - - [17/Nov/2018:09:41:46 +0100] "GET /FormularProject/scripts/js/index-script.js HTTP/1.1" 200 914
