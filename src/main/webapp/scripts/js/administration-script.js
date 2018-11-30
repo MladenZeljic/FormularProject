@@ -292,9 +292,11 @@ function showRadioLabels(typesSelectElement){
 	}
 	else{
 		var formularRow = secondRadioLabelInputGroup.parentElement;
+		var radioNumberSelect = formularRow.getElementsByTagName("select")[1];
 		while(secondRadioLabelInputGroup.nextElementSibling != null){
 			formularRow.removeChild(formularRow.lastChild);
 		}
+		radioNumberSelect.selectedIndex = 0;
 	}
 }
 

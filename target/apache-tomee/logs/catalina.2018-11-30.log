@@ -1,0 +1,134 @@
+stu 30, 2018 2:47:31 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+stu 30, 2018 2:47:33 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+stu 30, 2018 2:47:33 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+stu 30, 2018 2:47:34 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'tomee.remote.support=true'
+stu 30, 2018 2:47:34 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+stu 30, 2018 2:47:34 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+stu 30, 2018 2:47:34 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: OpenEJB http://openejb.apache.org/
+stu 30, 2018 2:47:34 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Startup: Fri Nov 30 14:47:34 CET 2018
+stu 30, 2018 2:47:34 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Copyright 1999-2013 (C) Apache OpenEJB Project, All Rights Reserved.
+stu 30, 2018 2:47:34 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Version: 4.7.1
+stu 30, 2018 2:47:34 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build date: 20140912
+stu 30, 2018 2:47:34 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: Build time: 01:43
+stu 30, 2018 2:47:34 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: ********************************************************************************
+stu 30, 2018 2:47:34 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.home = /home/mladjo/Radna površina/FormularProject/target/apache-tomee
+stu 30, 2018 2:47:34 PM org.apache.openejb.OpenEJB$Instance <init>
+INFO: openejb.base = /home/mladjo/Radna površina/FormularProject/target/apache-tomee
+stu 30, 2018 2:47:34 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@1dd02175
+stu 30, 2018 2:47:34 PM org.apache.openejb.cdi.CdiBuilder initializeOWB
+INFO: Succeeded in installing singleton service
+stu 30, 2018 2:47:34 PM org.apache.openejb.config.ConfigurationFactory init
+INFO: openejb configuration file is '/home/mladjo/Radna površina/FormularProject/target/apache-tomee/conf/tomee.xml'
+stu 30, 2018 2:47:35 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+stu 30, 2018 2:47:35 PM org.apache.openejb.config.ConfigurationFactory configureService
+INFO: Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+stu 30, 2018 2:47:35 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.system.apps=false'
+stu 30, 2018 2:47:35 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.deployments.classpath=false'
+stu 30, 2018 2:47:35 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating TransactionManager(id=Default Transaction Manager)
+stu 30, 2018 2:47:35 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating SecurityService(id=Tomcat Security Service)
+stu 30, 2018 2:47:35 PM org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf)
+stu 30, 2018 2:47:36 PM org.apache.openejb.server.ServiceManager initServer
+INFO: Creating ServerService(id=cxf-rs)
+stu 30, 2018 2:47:36 PM org.apache.openejb.server.SimpleServiceManager start
+INFO:   ** Bound Services **
+stu 30, 2018 2:47:36 PM org.apache.openejb.server.SimpleServiceManager printRow
+INFO:   NAME                 IP              PORT  
+stu 30, 2018 2:47:36 PM org.apache.openejb.server.SimpleServiceManager start
+INFO: -------
+stu 30, 2018 2:47:36 PM org.apache.openejb.server.SimpleServiceManager start
+INFO: Ready!
+stu 30, 2018 2:47:36 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 5130 ms
+stu 30, 2018 2:47:36 PM org.apache.tomee.catalina.OpenEJBNamingContextListener bindResource
+INFO: Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+stu 30, 2018 2:47:36 PM org.apache.openejb.assembler.classic.Assembler createRecipe
+INFO: Creating Resource(id=UserDatabase)
+stu 30, 2018 2:47:36 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+stu 30, 2018 2:47:36 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat (TomEE)/7.0.55 (1.7.1)
+stu 30, 2018 2:47:36 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive /home/mladjo/Radna površina/FormularProject/target/apache-tomee/webapps/FormularProject.war
+stu 30, 2018 2:47:36 PM org.apache.tomee.catalina.TomcatWebAppBuilder init
+INFO: ------------------------- localhost -> /FormularProject
+stu 30, 2018 2:47:36 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracting jar: /home/mladjo/Radna površina/FormularProject/target/apache-tomee/webapps/FormularProject.war
+stu 30, 2018 2:47:36 PM org.apache.openejb.util.JarExtractor extract
+INFO: Extracted path: /home/mladjo/Radna površina/FormularProject/target/apache-tomee/webapps/FormularProject
+stu 30, 2018 2:47:36 PM org.apache.openejb.util.OptionsLog info
+INFO: Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+stu 30, 2018 2:47:36 PM org.apache.openejb.config.ConfigurationFactory configureApplication
+INFO: Configuring enterprise application: /home/mladjo/Radna površina/FormularProject/target/apache-tomee/webapps/FormularProject
+stu 30, 2018 2:47:37 PM org.apache.openejb.config.AppInfoBuilder build
+INFO: Enterprise application "/home/mladjo/Radna površina/FormularProject/target/apache-tomee/webapps/FormularProject" loaded.
+stu 30, 2018 2:47:37 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Assembling app: /home/mladjo/Radna površina/FormularProject/target/apache-tomee/webapps/FormularProject
+stu 30, 2018 2:47:37 PM org.apache.openejb.cdi.CdiBuilder initSingleton
+INFO: Existing thread singleton service in SystemInstance(): org.apache.openejb.cdi.ThreadSingletonServiceImpl@1dd02175
+stu 30, 2018 2:47:37 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container is starting...
+stu 30, 2018 2:47:37 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [CdiPlugin]
+stu 30, 2018 2:47:37 PM org.apache.webbeans.plugins.PluginLoader startUp
+INFO: Adding OpenWebBeansPlugin : [OpenWebBeansJsfPlugin]
+stu 30, 2018 2:47:37 PM org.apache.webbeans.config.BeansDeployer validateInjectionPoints
+INFO: All injection points were validated successfully.
+stu 30, 2018 2:47:37 PM org.apache.openejb.cdi.OpenEJBLifecycle startApplication
+INFO: OpenWebBeans Container has started, it took 298 ms.
+stu 30, 2018 2:47:37 PM org.apache.openejb.assembler.classic.Assembler createApplication
+INFO: Deployed Application(path=/home/mladjo/Radna površina/FormularProject/target/apache-tomee/webapps/FormularProject)
+stu 30, 2018 2:47:38 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive /home/mladjo/Radna površina/FormularProject/target/apache-tomee/webapps/FormularProject.war has finished in 2,240 ms
+stu 30, 2018 2:47:38 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+stu 30, 2018 2:47:38 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+stu 30, 2018 2:47:38 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 2452 ms
+stu 30, 2018 2:48:08 PM org.hsqldb.persist.Logger logInfoEvent
+INFO: checkpointClose start
+stu 30, 2018 2:48:08 PM org.hsqldb.persist.Logger logInfoEvent
+INFO: checkpointClose end
+stu 30, 2018 2:55:16 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+stu 30, 2018 2:55:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+stu 30, 2018 2:55:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+stu 30, 2018 2:55:16 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+stu 30, 2018 2:55:16 PM org.apache.openejb.assembler.classic.Assembler destroyApplication
+INFO: Undeploying app: /home/mladjo/Radna površina/FormularProject/target/apache-tomee/webapps/FormularProject
+stu 30, 2018 2:55:16 PM org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+SEVERE: The web application [/FormularProject] appears to have started a thread named [HSQLDB Timer @a95a7f0] but has failed to stop it. This is very likely to create a memory leak.
+stu 30, 2018 2:55:16 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+stu 30, 2018 2:55:16 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+stu 30, 2018 2:55:16 PM org.apache.openejb.server.SimpleServiceManager stop
+INFO: Stopping server services
+stu 30, 2018 2:55:16 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+stu 30, 2018 2:55:16 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]

@@ -1,8 +1,8 @@
-com\project\controllers\AdministrationController.class
-com\project\dao\AbstractDAO.class
-com\project\dao\BasicQueryInterface.class
-com\project\models\Formular.class
-com\project\controllers\FormularController.class
-com\project\dao\FormularDAO.class
-com\project\dao\ElementDAO.class
-com\project\models\Element.class
+com/project/controllers/FormularController.class
+com/project/controllers/AdministrationController.class
+com/project/models/Formular.class
+com/project/dao/ElementDAO.class
+com/project/models/Element.class
+com/project/dao/AbstractDAO.class
+com/project/dao/BasicQueryInterface.class
+com/project/dao/FormularDAO.class
